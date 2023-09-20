@@ -44,7 +44,7 @@ const Register = () => {
     } else {
       console.log("register");
 
-      const data = await fetch("http://localhost:4000/register", {
+      const data = await fetch("https://practise-eu63.vercel.app/register", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ name, email, password, cpassword }),

@@ -34,7 +34,7 @@ const EditPhoto = () => {
       const token = await localStorage.getItem("userDataToken");
       // console.log(token);
 
-      const data = await fetch("http://localhost:4000/editPhoto", {
+      const data = await fetch("https://practise-eu63.vercel.app/editPhoto", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",

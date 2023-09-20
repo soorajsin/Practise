@@ -32,7 +32,7 @@ const Skill = () => {
         skills: skills.filter((skill) => skill.trim() !== ""), // Remove empty skills
       };
 
-      const data = await fetch("http://localhost:4000/skill", {
+      const data = await fetch("https://practise-eu63.vercel.app/skill", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
